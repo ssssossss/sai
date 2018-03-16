@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFNBilling.Domain", "IFNBilling.Domain\IFNBilling.Domain.csproj", "{1A47C369-1767-4137-8418-1A0E37E7CE89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFNBilling.ServiceContracts", "IFNBilling.ServiceContracts\IFNBilling.ServiceContracts.csproj", "{D2C9559F-1333-4DD8-88C2-18508B200170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFNBilling.Services", "IFNBilling.Services\IFNBilling.Services.csproj", "{949540C1-7EA4-4C19-9EEC-C6A91FF28E5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFNBilling.DataProvider", "IFNBilling.DataProvider\IFNBilling.DataProvider.csproj", "{36B5C171-FF2E-406B-BC5C-122CA5390EBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFNBilling.FileProvider", "IFNBilling.FileProvider\IFNBilling.FileProvider.csproj", "{19D7D154-28A4-4B43-A0B5-096E863D5361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merrill.Common", "Merrill.Common\Merrill.Common.csproj", "{30B41A4F-92BF-40BE-ABA5-9BF5415B0FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFNBilling.WebApp", "IFNBilling.WebApp\IFNBilling.WebApp.csproj", "{E33E0F76-192F-4547-8C97-E8CA50F36CCC}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "IFNBilling.Database", "IFNBilling.Database\IFNBilling.Database.sqlproj", "{ACA98476-A9E0-46FA-BF3A-DE4F03C54DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFNBilling.ControllerTest", "IFNBilling.ControllerTest\IFNBilling.ControllerTest.csproj", "{84332031-22E6-4C0F-86B9-8967373F32DC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://merrilltfs:8080/tfs/financialprint
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IFNBilling.Domain\\IFNBilling.Domain.csproj
+		SccProjectName1 = IFNBilling.Domain
+		SccLocalPath1 = IFNBilling.Domain
+		SccProjectUniqueName2 = IFNBilling.ServiceContracts\\IFNBilling.ServiceContracts.csproj
+		SccProjectName2 = IFNBilling.ServiceContracts
+		SccLocalPath2 = IFNBilling.ServiceContracts
+		SccProjectUniqueName3 = IFNBilling.Services\\IFNBilling.Services.csproj
+		SccProjectName3 = IFNBilling.Services
+		SccLocalPath3 = IFNBilling.Services
+		SccProjectUniqueName4 = IFNBilling.DataProvider\\IFNBilling.DataProvider.csproj
+		SccProjectName4 = IFNBilling.DataProvider
+		SccLocalPath4 = IFNBilling.DataProvider
+		SccProjectUniqueName5 = IFNBilling.FileProvider\\IFNBilling.FileProvider.csproj
+		SccProjectName5 = IFNBilling.FileProvider
+		SccLocalPath5 = IFNBilling.FileProvider
+		SccProjectUniqueName6 = Merrill.Common\\Merrill.Common.csproj
+		SccProjectName6 = Merrill.Common
+		SccLocalPath6 = Merrill.Common
+		SccProjectUniqueName7 = IFNBilling.WebApp\\IFNBilling.WebApp.csproj
+		SccProjectName7 = IFNBilling.WebApp
+		SccLocalPath7 = IFNBilling.WebApp
+		SccProjectUniqueName8 = IFNBilling.Database\\IFNBilling.Database.sqlproj
+		SccProjectName8 = IFNBilling.Database
+		SccLocalPath8 = IFNBilling.Database
+		SccProjectUniqueName9 = IFNBilling.ControllerTest\\IFNBilling.ControllerTest.csproj
+		SccProjectName9 = IFNBilling.ControllerTest
+		SccLocalPath9 = IFNBilling.ControllerTest
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A47C369-1767-4137-8418-1A0E37E7CE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A47C369-1767-4137-8418-1A0E37E7CE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A47C369-1767-4137-8418-1A0E37E7CE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A47C369-1767-4137-8418-1A0E37E7CE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C9559F-1333-4DD8-88C2-18508B200170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C9559F-1333-4DD8-88C2-18508B200170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C9559F-1333-4DD8-88C2-18508B200170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C9559F-1333-4DD8-88C2-18508B200170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949540C1-7EA4-4C19-9EEC-C6A91FF28E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949540C1-7EA4-4C19-9EEC-C6A91FF28E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949540C1-7EA4-4C19-9EEC-C6A91FF28E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949540C1-7EA4-4C19-9EEC-C6A91FF28E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B5C171-FF2E-406B-BC5C-122CA5390EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B5C171-FF2E-406B-BC5C-122CA5390EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B5C171-FF2E-406B-BC5C-122CA5390EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B5C171-FF2E-406B-BC5C-122CA5390EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D7D154-28A4-4B43-A0B5-096E863D5361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D7D154-28A4-4B43-A0B5-096E863D5361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D7D154-28A4-4B43-A0B5-096E863D5361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D7D154-28A4-4B43-A0B5-096E863D5361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B41A4F-92BF-40BE-ABA5-9BF5415B0FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B41A4F-92BF-40BE-ABA5-9BF5415B0FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B41A4F-92BF-40BE-ABA5-9BF5415B0FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B41A4F-92BF-40BE-ABA5-9BF5415B0FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33E0F76-192F-4547-8C97-E8CA50F36CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33E0F76-192F-4547-8C97-E8CA50F36CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33E0F76-192F-4547-8C97-E8CA50F36CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33E0F76-192F-4547-8C97-E8CA50F36CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACA98476-A9E0-46FA-BF3A-DE4F03C54DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA98476-A9E0-46FA-BF3A-DE4F03C54DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA98476-A9E0-46FA-BF3A-DE4F03C54DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACA98476-A9E0-46FA-BF3A-DE4F03C54DE1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{84332031-22E6-4C0F-86B9-8967373F32DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84332031-22E6-4C0F-86B9-8967373F32DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84332031-22E6-4C0F-86B9-8967373F32DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84332031-22E6-4C0F-86B9-8967373F32DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
