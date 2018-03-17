@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36B5C171-FF2E-406B-BC5C-122CA5390EBA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IFNBilling.DataProvider</RootNamespace>
+    <AssemblyName>IFNBilling.DataProvider</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\DataAccess.cs" />
+    <Compile Include="Common\EntityConverter.cs" />
+    <Compile Include="Common\ServiceConfig.cs" />
+    <Compile Include="IFNBillingProvider.cs" />
+    <Compile Include="Interfaces\IBatchDataProvider.cs" />
+    <Compile Include="Interfaces\IContactsDataProvider.cs" />
+    <Compile Include="Interfaces\IJobDataProvider.cs" />
+    <Compile Include="Interfaces\IMasterDataProvider.cs" />
+    <Compile Include="Interfaces\IProjectDataProvider.cs" />
+    <Compile Include="Interfaces\IReportDataProvider.cs" />
+    <Compile Include="Interfaces\IUserRoleDataProvider.cs" />
+    <Compile Include="Provider\BatchDataProvider.cs" />
+    <Compile Include="Provider\ContactsProvider.cs" />
+    <Compile Include="Provider\FileDataProvider.cs" />
+    <Compile Include="Provider\JobProvider.cs" />
+    <Compile Include="Provider\MasterDataProvider.cs" />
+    <Compile Include="Provider\ProjectProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\ReportDataProvider.cs" />
+    <Compile Include="Provider\UserRoleProvider.cs" />
+    <Compile Include="SqlClients\MsSqlClient\MsSqlBatchDataProvider.cs" />
+    <Compile Include="SqlClients\MsSqlClient\MsSqlContactsProvider.cs" />
+    <Compile Include="SqlClients\MsSqlClient\MsSqlFileDataProvider.cs" />
+    <Compile Include="SqlClients\MsSqlClient\MsSqlJobProvider.cs" />
+    <Compile Include="SqlClients\MsSqlClient\MsSqlMasterDataProvider.cs" />
+    <Compile Include="SqlClients\MsSqlClient\MsSqlProjectProvider.cs" />
+    <Compile Include="SqlClients\MsSqlClient\MsSqlReportProvider.cs" />
+    <Compile Include="SqlClients\MsSqlClient\MsSqlUserRoleProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IFNBilling.Domain\IFNBilling.Domain.csproj">
+      <Project>{1a47c369-1767-4137-8418-1a0e37e7ce89}</Project>
+      <Name>IFNBilling.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
